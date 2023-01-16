@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@100;300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Maven Pro";
+}
+
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+		90deg,
+		rgba(82, 136, 252, 1) 57%,
+		rgba(203, 28, 90, 1) 94%
+	) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#chat_container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 30px;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  padding-bottom: 20px;
+  scroll-behavior: smooth;
+}
+
+/* hides scrollbar */
+#chat_container::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+
+.chat {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: #da366d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai .profile {
+  background: #081fcf;
+}
+
+.profile img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.message {
+  flex: 1;
+  color: white;
+  font-size: 30px;
+  max-width: 100%;
+  overflow-x: scroll;
+  white-space: pre-wrap; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* hides scrollbar */
+.message::-webkit-scrollbar {
+  display: none;
+}
+
+form {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 15px;
+  background: linear-gradient(
+
+		rgba(203, 28, 90, 1)
+    rgba(82, 136, 252, 1) ,
+	) ;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+  color:white;
+  font-size: 25px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+}
+
+form img {
+  width: 30px;
+  height: 30px;
+}
