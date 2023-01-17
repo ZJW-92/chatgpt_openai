@@ -2,6 +2,8 @@
 
 A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, write, debug code and explain almot everything.
 
+## Screenshot 
+![screenshot](screenshot.png)
 
 ## Tech Stack
 - Server: node.js, express, openAIApi
@@ -21,7 +23,6 @@ Run `npm install && npm run dev`
 - [Render](https://render.com/) to host server side and add OPENAI_API_KEY in the environment variable
 
 - [Vercel](https://vercel.com/) to host the client side
-
 
 
 ## Issues and solutions
