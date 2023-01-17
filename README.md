@@ -1,5 +1,7 @@
 #  [Live demo](https://chatgpt-openai.vercel.app/)
 
+![Vercel](https://vercelbadge.vercel.app/api/ZJW-92/chatgpt_openai)
+
 A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, require chatbot to write, debug code and explain almost everything. 
 
 ## Screenshot 
