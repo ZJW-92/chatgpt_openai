@@ -1,5 +1,8 @@
 #  [Live demo](https://chatgpt-openai.vercel.app/)
 
+A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, write, debug code and explain almot everything.
+
+
 ## Tech Stack
 - Server: node.js, express, openAIApi
 - Client: HTML, CSS, JavasSript, vite
@@ -22,12 +25,12 @@ Run `npm install && npm run dev`
 
 
 ## Issues and solutions
-- 1. Error message 401: it means OPENAI_API_KEY in configruation is unauthorized
-- Solution: make sure put the OPENAI_API_KEY in `.env` inside of server folder rather than the root directory.
+ > - 1. Error message 401: it means OPENAI_API_KEY in configruation is unauthorized
+ >>Solution: make sure put the OPENAI_API_KEY in `.env` inside of server folder rather than the root directory. 
 
-- 2. Uncaught TypeError: fail to fetch at .... 
-- Solution: change the localhost 5000 link in script.js to the new server link from render and push again
-
-- 3. Free trial usage is $18 and API key will expire on May 1, 2023
+> - 2. Uncaught TypeError: fail to fetch at .... 
+>> Solution: change the localhost 5000 link in script.js to the new server link from render and push again
+ 
+> - 3. Free trial usage is $18 and API key will expire on May 1, 2023
 
 
