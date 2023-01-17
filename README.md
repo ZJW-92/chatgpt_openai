@@ -1,6 +1,6 @@
 #  [Live demo](https://chatgpt-openai.vercel.app/)
 
-A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, write, debug code and explain almot everything.
+A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, write, debug code and explain almost everything.
 
 ## Screenshot 
 ![screenshot](screenshot.png)
