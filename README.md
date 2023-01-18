@@ -8,8 +8,16 @@ A language model chatbot developed by OpenAI based on GPT 3.5. Users can interac
 ![screenshot](screenshot.png)
 
 ## Tech Stack
-- Server: node.js, express, openAIApi
-- Client: HTML, CSS, JavasSript, vite
+### Server: 
+ - 1. ***[Node.js](https://nodejs.org/en/)***: _JavaScript runtime environment._
+ - 2. ***[Express](https://expressjs.com/)***: _Node js web application framework._
+ - 3. ***[OpenAIApi](https://openai.com/api/)***: _Performs a wide variety of natural language tasks, and Codex, which translates natural language to code._
+
+### Client: 
+- 1. ***HTML***
+- 2. ***CSS***
+- 3. ***JavasSript***
+- 4. ***[Vite](https://vitejs.dev/)***: _Development environment for frameworks like Vue and React._
 
 
 ## Set up
