@@ -43,7 +43,7 @@ app.post('/', async (req, res) => {
 
   } catch (error) {
     console.error(error)
-    res.status(500).send(error || 'Something went wrong, try it later.');
+    res.status(500).send(error || "You've used up all the credits available in your free trial.");
   }
 })
 
