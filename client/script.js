@@ -106,7 +106,7 @@ const handleSubmit = async (e) => {
     } else {
         const err = await response.text()
 
-        messageDiv.innerHTML = "Something went wrong, try it later"
+        messageDiv.innerHTML = "You've used up all the credits available in your free trial."
         alert(err)
     }
 }
