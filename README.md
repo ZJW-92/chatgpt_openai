@@ -5,7 +5,8 @@
 ***A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, require chatbot to write, debug code and explain almost everything.***
 
 ## ***Screenshot***
-![screenshot](screenshot.png)
+
+<img src="screenshot.png" width="70%">
 
 ## ***Tech Stack***
 ### ***Server:***
@@ -26,8 +27,8 @@ _Run `npm create vite@latest client --template vanilla` and choose vanilla as fr
 ## ***Sign up account in [OpenAI](https://openai.com/api/) to get the secret OPENAI_API_KEY***
 
 ## ***server && client***
-- _1. Run `npm install && npm run server`_
-- _2. Run `npm install && npm run dev`_
+- _1. Run `npm install && npm run server` in one terminal_
+- _2. Run `npm install && npm run dev` in another terminal_ 
 
 ## ***Deploy***
 - 1. _[Render](https://render.com/) to host server side and add OPENAI_API_KEY in the environment variable_
